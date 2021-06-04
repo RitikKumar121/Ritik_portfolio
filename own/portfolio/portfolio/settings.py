@@ -27,12 +27,12 @@ STATIC_DIR=os.path.join(BASE_DIR,'static')
 SECRET_KEY = 'vqlo8flnr=n3ljf-oz=v69mbyr!vtysy#jtg!sdtqheri43f^@'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 
 
 
-ALLOWED_HOSTS = ['127.0.0.1','ritikportfolio.herokuapp.com']
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -53,7 +53,7 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
-    'whitenoise.middleware.WhiteNoiseMiddleware',
+
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
