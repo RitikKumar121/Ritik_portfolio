@@ -35,7 +35,7 @@ DEBUG = True
 
 
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1','ritikportfolio1.herokuapp.com']
 
 
 # Application definition
@@ -139,5 +139,3 @@ STATICFILES_DIRS=[
     STATIC_DIR,
 
 ]
-
-
